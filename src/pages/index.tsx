@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Index() {
   return (
@@ -10,9 +11,13 @@ export default function Index() {
             alt="Logo"
             width={500}
             height={500}
-            className="pr-20"
+            className="pr-20 pb-9"
           />
-          <div className="pt-5"></div>
+          <Link href="https://hackclub.com/slack/?event=HAM%20Huddles">
+            <button className="bg-black text-white rounded-2xl p-5">
+              Get Your License!
+            </button>
+          </Link>
         </div>
         <div className="pt-20">
           <div className="prose">
@@ -48,14 +53,20 @@ export default function Index() {
             All you need to do is post in #scrapbook on what you learned and
             join our nightly HAM nights!
             <div className="py-5" />
-            <div className="flex flex-row space-x-5 pb-5">
+            <div className="md:flex md:flex-row md:space-x-5 pb-5">
               <Card phase={1} />
               <Card phase={2} />
             </div>
-            <div className="flex flex-row space-x-5">
+            <div className="md:flex md:flex-row md:space-x-5">
               <Card phase={3} />
               <Card phase={4} />
             </div>
+            <div className="py-5" />
+            <Link href="https://hackclub.com/slack/?event=HAM%20Huddles">
+              <button className="bg-black text-white rounded-2xl p-5">
+                Get Your License!
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -68,23 +79,23 @@ export function Card({ phase }: { phase: number }) {
     <>
       {phase === 1 && (
         <div className="bg-cover rounded-2xl w-60 h-60 bg-[url('/images/1.png')]">
-          <h2>Study!</h2>
+          <h2 className="text-white pl-3 pt-5 md:pt-0">Study!</h2>
         </div>
       )}
       {phase === 2 && (
         <div className="bg-cover rounded-2xl w-60 h-60 bg-[url('/images/2.png')]">
-        <h2>Take the Exam!</h2>
-      </div>
+          <h2 className="pl-[4rem]">Take the Exam!</h2>
+        </div>
       )}
       {phase === 3 && (
         <div className="bg-cover rounded-2xl w-60 h-60 bg-[url('/images/3.png')]">
-        <h2>Get a Radio!</h2>
-      </div>
+          <h2 className="text-white pl-5 pt-[9rem]">Get a Radio!</h2>
+        </div>
       )}
       {phase === 4 && (
         <div className="bg-cover rounded-2xl w-60 h-60 bg-[url('/images/4.jpg')]">
-        <h2 className="right-0 bottom-0">Explore!</h2>
-      </div>
+          <h2 className="text-white pl-5">Explore!</h2>
+        </div>
       )}
     </>
   );
