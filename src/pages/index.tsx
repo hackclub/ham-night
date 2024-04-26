@@ -13,7 +13,7 @@ export default function Index() {
             height={500}
             className="pr-20 pb-9"
           />
-          <Link href="https://hackclub.com/slack/?event=HAM%20Huddles">
+          <Link href="https://forms.hackclub.com/t/oCU4yuMzGdus">
             <button className="bg-black text-white rounded-2xl p-5">
               Get Your License!
             </button>
@@ -62,12 +62,17 @@ export default function Index() {
               <Card phase={4} />
             </div>
             <div className="py-5" />
-            <Link href="https://hackclub.com/slack/?event=HAM%20Huddles">
+            <Link href="https://forms.hackclub.com/t/oCU4yuMzGdus">
               <button className="bg-black text-white rounded-2xl p-5">
                 Get Your License!
               </button>
             </Link>
           </div>
+        </div>
+      </div>
+      <div className="w-screen h-48 bg-black">
+        <div className="flex justify-center items-center h-full">
+          <p className="text-white">Made by <Link className="underline" href="https://hackclub.com">Hack Club</Link></p>
         </div>
       </div>
     </>
