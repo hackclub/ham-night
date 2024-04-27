@@ -4,8 +4,9 @@ import Link from "next/link";
 export default function Index() {
   return (
     <>
-      <div className="p-20">
-        <div className="w-screen text-wrap pt-10 md:pt-40 lg:pt-70">
+    <Image className="sticky top-0 left-10 hover:" src="/hackclub.svg" alt="Logo" width={125} height={125} />
+      <div className="px-20 pb-20">
+        <div className="w-screen text-wrap pt-5 md:pt-20 lg:pt-48">
           <Image
             src="/hamclub.svg"
             alt="Logo"
@@ -21,7 +22,7 @@ export default function Index() {
         </div>
         <div className="pt-20">
           <div className="prose">
-            <h1>
+            <h1 className="w-full">
               📻
               <span className="text-xl italic font-semibold">
                 {" "}
