@@ -46,7 +46,7 @@ export default function Index() {
         <div className="px-20 pt-20">
           <div className="prose flex mx-auto flex-col">
             
-            <h1>Welcome to Hack Club's Ham Club!</h1>
+            <h1 className="w-full text-center">Welcome to Hack Club's Ham Club!</h1>
             
             <h1 className="w-full text-center">
               📻
