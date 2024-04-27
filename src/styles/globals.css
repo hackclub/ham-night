@@ -4,7 +4,8 @@
 
 card {
   backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  -webkit-backdrop-filter: blur(10px);
+  /* For Safari */
 }
 
 .container {
@@ -17,7 +18,8 @@ card {
   padding: 10px;
   position: sticky;
   top: 0;
-  z-index: 1000; /* Keeps the header above other content */
+  z-index: 1000;
+  /* Keeps the header above other content */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,4 +50,15 @@ card {
 
 .main {
   padding: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
 }

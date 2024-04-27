@@ -16,7 +16,7 @@ const FAQ = () => {
                 </nav>
             </header>
             <div className="p-20">
-                <h2>Some FAQs about ham radio:</h2>
+                <h1>Some FAQs about ham radio and this program:</h1>
                 <ul>
                     <li>
                         You will be getting the technician license. This is the basic license that everyone needs to take
