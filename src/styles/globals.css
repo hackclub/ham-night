@@ -4,5 +4,6 @@
 
 card {
   backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  -webkit-backdrop-filter: blur(10px);
+  /* For Safari */
 }
