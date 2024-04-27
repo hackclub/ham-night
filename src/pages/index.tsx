@@ -17,13 +17,13 @@ export default function Index() {
         </nav>
       </header>
       <div className="p-20">
-        <div className="w-screen text-wrap pt-10 md:pt-40 lg:pt-70">
+        <div className="w-screen text-wrap pt-0">
           <Image
             src="/hamclub.svg"
             alt="Logo"
             width={500}
             height={500}
-            className="pr-20 pb-9"
+            className="pr-20"
           />
         </div>
         <div className="pt-20">
