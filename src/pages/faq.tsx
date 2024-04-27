@@ -30,8 +30,8 @@ const FAQ = () => {
           <li>
             We currently only offer support for students getting the technician
             license. This is the basic license that everyone needs to take
-            before moving on to other licenses. Don’t worry, you can still do
-            pretty much everything besides HF with a technician license.
+            before moving on to other licenses. Don{"'"}t worry, you can still
+            do pretty much everything besides HF with a technician license.
           </li>
           <br></br>
           <li>
@@ -41,8 +41,8 @@ const FAQ = () => {
           </li>
           <br></br>
           <li>
-            If you can’t make it to the huddle every night for two weeks, don’t
-            worry! You can still study on your own.
+            If you can{"'"}t make it to the huddle every night for two weeks,
+            don{"'"}t worry! You can still study on your own.
             <b>
               {" "}
               Make sure you are done studying and testing by May 31st to be
@@ -66,14 +66,15 @@ const FAQ = () => {
           </li>
           <br></br>
           <li>
-            No, ham radios aren’t made of ham - ham is an abbreviation for
+            No, ham radios aren{"'"}t made of ham - ham is an abbreviation for
             amateur!
           </li>
           <br></br>
           <li>
             Because this is amateur radio - of course{" "}
             <b>you can hack your radio and program custom firmware! </b>
-            This will be required. Don't worry, we will offer guides to do this.
+            This will be required. Don{"'"}t worry, we will offer guides to do
+            this.
           </li>
           <br></br>
           <li>
@@ -90,8 +91,8 @@ const FAQ = () => {
           <li>
             Ham radio is not just about having fun - it{"'"}s also about doing
             service. Ham radio has been used in countless situations - like
-            hurricanes - to save people{"'"}s lives, coordinate local events like
-            parades and marathons, and to aid in emergency communication.
+            hurricanes - to save people{"'"}s lives, coordinate local events
+            like parades and marathons, and to aid in emergency communication.
           </li>
           <br></br>
           <li>
@@ -116,7 +117,7 @@ const FAQ = () => {
       <div className="w-screen h-48 bg-black">
         <div className="flex justify-center items-center h-full">
           <p className="text-white">
-            Made with love by Charlie, Aram, and Jasper for{" "}
+            Made with love by{" "}
             <Link className="underline" href="https://hackclub.com">
               Hack Club
             </Link>
