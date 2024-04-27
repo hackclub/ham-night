@@ -23,11 +23,11 @@ export default function Index() {
             />
           </div>
           <Link
-            href="https://forms.hackclub.com/t/oCU4yuMzGdus"
+            href="https://hackclub.com/slack?event=HAM%20Night"
             className="flex justify-center"
           >
             <button className="bg-black text-white rounded-2xl p-5 items-center mx-auto">
-              Get Your License!
+              Join the Hack Club Slack!
             </button>
           </Link>
         </div>
@@ -81,9 +81,9 @@ export default function Index() {
             </div>
             <div className="py-5" />
             <div className="flex justify-center">
-              <Link href="https://forms.hackclub.com/t/oCU4yuMzGdus">
+              <Link href="https://hackclub.com/slack?event=HAM%20Night">
                 <button className="bg-black text-white rounded-2xl p-5">
-                  Get Your License!
+                 Join the Hack Club Slack!
                 </button>
               </Link>
             </div>

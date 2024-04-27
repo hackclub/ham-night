@@ -3,20 +3,6 @@ import Link from "next/link";
 const FAQ = () => {
   return (
     <>
-      <header className="header">
-        <Link className="logo" href="/">
-          ham club
-        </Link>
-        <nav>
-          <ul className="navList">
-            <li className="navItem">
-              <Link href="/faq">faq</Link>
-              <Link href="/faq">how it works</Link>
-              <Link href="/faq">study links!</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
       <div className="p-20 prose">
         <h1>Some FAQs about ham radio and this program:</h1>
         <ul>
