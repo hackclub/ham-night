@@ -51,24 +51,20 @@ export default function Index() {
               each other in a secret code only they know.{" "}
             </p>
             <p>
-              Heres the cool part anyone can get one! Including teens like you!
-              So now you{"'"}re thinking? How can I get to this secret club?
-              Well it does involve some studying and a test.
+              Here{"'"}s the cool part: anyone can get a license! This includes teens like you!
+              So, now you{"'"}re thinking, how can I get into this secret club?
+              Well, it does involve some studying and a test.
             </p>{" "}
-            Hack Club wants to make easier than ever for you to join this secret
-            club.{" "}
-            <span className="font-semibold">
-              So were running a experiment for all students in the US: Pass the
-              test and we will waive your exam fees, and we will buy you your
+            <p>
+              Hack Club wants to make easier than ever for you to join this secret
+              club.{" "}
+            </p>
+            <p className="font-semibold">
+              So, we{"'"}re running an experiment until May 31st for all students in the US:
+              we will waive your exam fees, and once you past your test, we will buy you your
               own radio!
-            </span>{" "}
-            All you need to do is post in #scrapbook in the{" "}
-            <Link href="https://hackclub.com/slack?event=HAM%20Night">
-              {" "}
-              Hack Club Slack
-            </Link>{" "}
-            on what you learned and join our nightly HAM nights!
-            <br/>
+            </p>
+
             <p>Have Questions? Vist our <Link href="/faq">FAQ</Link></p>
             <div className="py-5" />
             <div className="md:flex md:flex-row md:space-x-5 pb-5 flex justify-center flex-col">
@@ -83,7 +79,7 @@ export default function Index() {
             <div className="flex justify-center">
               <Link href="https://hackclub.com/slack?event=HAM%20Night">
                 <button className="bg-black text-white rounded-2xl p-5">
-                 Join the Hack Club Slack!
+                  Join the Hack Club Slack!
                 </button>
               </Link>
             </div>
