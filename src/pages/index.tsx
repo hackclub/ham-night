@@ -102,22 +102,22 @@ export function Card({ phase }: { phase: number }) {
   return (
     <>
       {phase === 1 && (
-        <div className="bg-cover rounded-2xl w-60 h-60 bg-[url('/images/1.png')]">
+        <div className="bg-cover rounded-2xl w-60 h-60 bg-[url('/images/1.png')] pt-5">
           <h2 className="text-white pl-3 pt-5 md:pt-0">Study!</h2>
         </div>
       )}
       {phase === 2 && (
-        <div className="bg-cover rounded-2xl w-60 h-60 bg-[url('/images/2.png')]">
+        <div className="bg-cover rounded-2xl w-60 h-60 bg-[url('/images/2.png')] pt-5">
           <h2 className="pl-[4rem]">Take the Exam!</h2>
         </div>
       )}
       {phase === 3 && (
-        <div className="bg-cover rounded-2xl w-60 h-60 bg-[url('/images/3.png')]">
+        <div className="bg-cover rounded-2xl w-60 h-60 bg-[url('/images/3.png')] pt-5">
           <h2 className="text-white pl-5 pt-[9rem]">Get a Radio!</h2>
         </div>
       )}
       {phase === 4 && (
-        <div className="bg-cover rounded-2xl w-60 h-60 bg-[url('/images/4.jpg')]">
+        <div className="bg-cover rounded-2xl w-60 h-60 bg-[url('/images/4.jpg')] pt-5">
           <h2 className="text-white pl-5">Explore!</h2>
         </div>
       )}
