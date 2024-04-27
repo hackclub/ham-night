@@ -4,8 +4,20 @@ import Link from "next/link";
 export default function Index() {
   return (
     <>
+      <header className="bg-black text-white p-2 sticky top-0 z-[1000] flex justify-between items-center">
+        <a className="text-2xl font-light" href="/">ham club</a>
+        <nav>
+          <ul className="flex gap-5 list-none m-0 p-0">
+            <li className="flex gap-5">
+              <a className="hover:underline" href="/faq">faq</a>
+              <a className="hover:underline" href="/faq">how it works</a>
+              <a className="hover:underline" href="/faq">study links!</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <Image
-        className="sticky top-0 left-10"
+        className="sticky top-10 left-10"
         src="/hackclub.svg"
         alt="Logo"
         width={125}
@@ -31,7 +43,7 @@ export default function Index() {
             </button>
           </Link>
         </div>
-        <div className="pt-20">
+        <div className="px-20 pt-10">
           <div className="prose flex mx-auto flex-col">
             <h1 className="w-full text-center">
               📻
@@ -77,7 +89,7 @@ export default function Index() {
             <div className="py-5" />
             <div className="flex justify-center">
               <Link href="https://hackclub.com/slack?event=HAM%20Night">
-                <button className="bg-black text-white rounded-2xl p-5">
+                <button className="bg-black text-white rounded-2xl p-5 mt-10">
                   Join the Hack Club Slack!
                 </button>
               </Link>
