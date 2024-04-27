@@ -6,3 +6,46 @@ card {
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(10px); /* For Safari */
 }
+
+.container {
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Keeps the header above other content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: light;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navItem a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navItem a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding: 20px;
+}
