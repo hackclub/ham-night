@@ -10,8 +10,8 @@ export default function Index() {
           <ul className="flex gap-5 list-none m-0 p-0">
             <li className="flex gap-5">
               <a className="hover:underline" href="/faq">faq</a>
-              <a className="hover:underline" href="/faq">how it works</a>
-              <a className="hover:underline" href="/faq">study links!</a>
+              {/* <a className="hover:underline" href="/faq">how it works</a> 
+              <a className="hover:underline" href="/faq">study links!</a> */}
             </li>
           </ul>
         </nav>
@@ -38,13 +38,16 @@ export default function Index() {
             href="https://hackclub.com/slack?event=HAM%20Night"
             className="flex justify-center"
           >
-            <button className="bg-black text-white rounded-2xl p-5 items-center mx-auto">
+            <button className="bg-black text-white rounded-2xl p-5 items-center mx-auto mt-10">
               Join the Hack Club Slack!
             </button>
           </Link>
         </div>
-        <div className="px-20 pt-10">
+        <div className="px-20 pt-20">
           <div className="prose flex mx-auto flex-col">
+            
+            <h1>Welcome to Hack Club's Ham Club!</h1>
+            
             <h1 className="w-full text-center">
               📻
               <span className="text-xl italic font-semibold">
@@ -53,29 +56,17 @@ export default function Index() {
               </span>
               ✨
             </h1>
-            <p>
-              Have you ever looked at a radio and wondered, how does that thing
-              work?
-            </p>
-            <p>
-              HAM radio is one of the oldest forms of communication with radios!
-              It{"'"}s where any licensed radio amateurs can communicate with
-              each other in a secret code only they know.{" "}
-            </p>
-            <p>
-              Here{"'"}s the cool part: anyone can get a license! This includes teens like you!
-              So, now you{"'"}re thinking, how can I get into this secret club?
-              Well, it does involve some studying and a test.
-            </p>{" "}
-            <p>
-              Hack Club wants to make easier than ever for you to join this secret
-              club.{" "}
-            </p>
-            <p className="font-semibold">
-              So, we{"'"}re running an experiment until May 31st for all students in the US:
-              we will waive your exam fees, and once you past your test, we will buy you your
-              own radio!
-            </p>
+
+            <p>Hey there! Are you ready to dive into the world of ham radio? This is where you'll learn all about radio communication, connect with a cool community, and earn your <span className="font-semibold">technician license</span>—the first step in your ham radio journey.</p>
+
+            <p>We run a program that meets every night from <span className="font-semibold">8-9 PM Eastern Time</span> to study together. Don't worry if you can't make it to every session—you can always study alone and at your own pace. As long as you've passed the test by May 31st, you're on track to qualify for our grant, which covers the cost of your technician license.</p>
+
+            <p>Plus, when you pass the exam, we'll send you a UV-K5 radio—perfect for diving into the world of ham radio and even doing some fun hacking!</p>
+
+            <p>Ham radio is more than just a hobby—it's a way to make real connections, help during emergencies, and get involved with local events like parades and marathons. Plus, it looks fantastic on college applications! So, come join our program, make some new friends, and let's get you on the air.</p>
+
+            <i><p>Find us in #hamradio to study together!</p></i>
+
             <p>Have Questions? Visit our <Link href="/faq">FAQ.</Link></p>
             <div className="py-5" />
             <div className="md:flex md:flex-row md:space-x-5 pb-5 flex justify-center flex-col">
