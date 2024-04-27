@@ -64,8 +64,7 @@ export default function Index() {
               we will waive your exam fees, and once you past your test, we will buy you your
               own radio!
             </p>
-
-            <p>Have Questions? Vist our <Link href="/faq">FAQ</Link></p>
+            <p>Have Questions? Visit our <Link href="/faq">FAQ.</Link></p>
             <div className="py-5" />
             <div className="md:flex md:flex-row md:space-x-5 pb-5 flex justify-center flex-col">
               <Card phase={1} />
