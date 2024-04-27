@@ -4,7 +4,13 @@ import Link from "next/link";
 export default function Index() {
   return (
     <>
-    <Image className="sticky top-0 left-10 hover:" src="/hackclub.svg" alt="Logo" width={125} height={125} />
+      <Image
+        className="sticky top-0 left-10 hover:animate-pulse"
+        src="/hackclub.svg"
+        alt="Logo"
+        width={125}
+        height={125}
+      />
       <div className="px-20 pb-20">
         <div className="w-screen text-wrap pt-5 md:pt-20 lg:pt-48">
           <Image
@@ -73,7 +79,12 @@ export default function Index() {
       </div>
       <div className="w-screen h-48 bg-black">
         <div className="flex justify-center items-center h-full">
-          <p className="text-white">Made by <Link className="underline" href="https://hackclub.com">Hack Club</Link></p>
+          <p className="text-white">
+            Made by{" "}
+            <Link className="underline" href="https://hackclub.com">
+              Hack Club
+            </Link>
+          </p>
         </div>
       </div>
     </>
