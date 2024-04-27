@@ -13,14 +13,19 @@ export default function Index() {
       />
       <div className="pl-5 md:pl-0 pb-20">
         <div className="w-screen text-wrap pt-5 md:pt-20 lg:pt-48">
-          <Image
-            src="/hamclub.svg"
-            alt="Logo"
-            width={500}
-            height={500}
-            className="pr-20 pb-9 mx-auto"
-          />
-          <Link href="https://forms.hackclub.com/t/oCU4yuMzGdus" className="flex justify-center">
+          <div className="flex justify-center">
+            <Image
+              src="/hamclub.svg"
+              alt="Logo"
+              width={500}
+              height={500}
+              className="pr-20 pb-9 mx-auto"
+            />
+          </div>
+          <Link
+            href="https://forms.hackclub.com/t/oCU4yuMzGdus"
+            className="flex justify-center"
+          >
             <button className="bg-black text-white rounded-2xl p-5 items-center mx-auto">
               Get Your License!
             </button>
