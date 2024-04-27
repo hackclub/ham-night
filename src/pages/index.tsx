@@ -40,42 +40,40 @@ export default function Index() {
               Have you ever looked at a radio and wondered, how does that thing
               work?
             </p>
-            <p>
-              :radio: + :ham: = Ham Radio!
-            </p>
+    
             <p>
               I bet you{"'"}ve used a walkie before…
-              but have you have you ever RADIOED SOMEONE IN SPACE??? :telescope:
+              but have you have you ever radioed someone in space?
             </p>
             <p>
               Ham radio is one of the oldest forms of remote communication.
               With Ham radios, you can communicate with other ham radio users on
               frequencies that regular radios just can{"'"}t use!
               A regular walkie talkie can only communicate under a mile,
-              whereas ham radios can communicate 30 or more miles! :toitle-remote-control: :tw_world_map:
+              whereas ham radios can communicate 30 or more miles!
             </p>
             <p>
               We want to make it easier than ever for you to join this super cool
               and very exclusive club! From now until May 31st, if you get ship your
-              ham radio license, we will pay for your license exam, and <span className="font-semibold">SHIP YOU A HAM RADIO!</span> :dancing-ham:
+              ham radio license, we will pay for your license exam, and <span className="font-semibold">ship you a ham radio!</span>
             </p>
             <span className="font-semibold">
               How it works:{" "}
             </span>
             <p>
               1{")"} We recommend you study for the next 14 days!
-              Collaborative Study Huddles will be happening from 8-9pm Eastern Time
+              Collaborative Study Huddles will be happening from 8-9 PM Eastern Time
               for the next 14 days in the #hamradio channel, and we would love to study with you!
-              (you can totally start a study huddle at other times in the channel if you are inspired tho!) :headphones:
+              (<i>you can totally start a study huddle at other times in the channel if you are inspired tho!</i>)
             </p>
             <p>
               2{")"} Schedule & Take your Ham Exam!
-              (We will help you set one up if you need one, DM @Jasper on slack, or email jasper@hackclub.com) :writing_hand:
+              (We will help you set one up if you need one, email ham@hackclub.com)
             </p>
             <p>
               3{")"} Fill out our completion form
               (link to be posted in #hamradio and on this website soon!)
-              once you have your license, and we{"'"}ll do the rest! Enjoy your :ham:.
+              once you have your license, and we{"'"}ll do the rest! Enjoy your ham!
             </p>
             <span className="italic">
               <p>
