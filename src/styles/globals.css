@@ -2,6 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  /* color: #f6d193; */
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  /* background: #cec4f1; */
+  font-size: 2.5em;
+}
+
+.banner {
+  position: absolute;
+  top: -10px;
+  left: var(--spacing-4);
+}
+
+.banner img {
+  height: 80px;
+}
+
+.banner:hover img {
+  animation: wave-flag 0.5s linear infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .banner:hover img {
+    transition: 0.1875s cubic-bezier(0.375, 0, 0.675, 1) transform;
+    transform-origin: top left;
+  }
+}
+
+@keyframes wave-flag {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
 card {
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(10px);
