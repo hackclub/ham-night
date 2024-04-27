@@ -5,30 +5,30 @@ export default function Index() {
   return (
     <>
       <Image
-        className="sticky top-0 left-10 hover:animate-pulse"
+        className="sticky top-0 left-10"
         src="/hackclub.svg"
         alt="Logo"
         width={125}
         height={125}
       />
-      <div className="px-20 pb-20">
+      <div className="pl-5 md:pl-0 pb-20">
         <div className="w-screen text-wrap pt-5 md:pt-20 lg:pt-48">
           <Image
             src="/hamclub.svg"
             alt="Logo"
             width={500}
             height={500}
-            className="pr-20 pb-9"
+            className="pr-20 pb-9 mx-auto"
           />
-          <Link href="https://forms.hackclub.com/t/oCU4yuMzGdus">
-            <button className="bg-black text-white rounded-2xl p-5">
+          <Link href="https://forms.hackclub.com/t/oCU4yuMzGdus" className="flex justify-center">
+            <button className="bg-black text-white rounded-2xl p-5 items-center mx-auto">
               Get Your License!
             </button>
           </Link>
         </div>
         <div className="pt-20">
-          <div className="prose">
-            <h1 className="w-full">
+          <div className="prose flex mx-auto flex-col">
+            <h1 className="w-full text-center">
               📻
               <span className="text-xl italic font-semibold">
                 {" "}
@@ -60,20 +60,22 @@ export default function Index() {
             All you need to do is post in #scrapbook on what you learned and
             join our nightly HAM nights!
             <div className="py-5" />
-            <div className="md:flex md:flex-row md:space-x-5 pb-5">
+            <div className="md:flex md:flex-row md:space-x-5 pb-5 flex justify-center flex-col">
               <Card phase={1} />
               <Card phase={2} />
             </div>
-            <div className="md:flex md:flex-row md:space-x-5">
+            <div className="md:flex md:flex-row md:space-x-5 flex justify-center flex-col">
               <Card phase={3} />
               <Card phase={4} />
             </div>
             <div className="py-5" />
-            <Link href="https://forms.hackclub.com/t/oCU4yuMzGdus">
-              <button className="bg-black text-white rounded-2xl p-5">
-                Get Your License!
-              </button>
-            </Link>
+            <div className="flex justify-center">
+              <Link href="https://forms.hackclub.com/t/oCU4yuMzGdus">
+                <button className="bg-black text-white rounded-2xl p-5">
+                  Get Your License!
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -81,7 +83,7 @@ export default function Index() {
         <div className="flex justify-center items-center h-full">
           <p className="text-white">
             Made by{" "}
-            <Link className="underline" href="https://hackclub.com">
+            <Link className="text-2xl underline" href="https://hackclub.com">
               Hack Club
             </Link>
           </p>
