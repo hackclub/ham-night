@@ -7,7 +7,7 @@ export default function Index() {
       <div className="p-20">
         <div className="w-screen text-wrap pt-10 md:pt-40 lg:pt-70">
           <Image
-            src="/hamhuddles.svg"
+            src="/hamclub.svg"
             alt="Logo"
             width={500}
             height={500}
