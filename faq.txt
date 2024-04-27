@@ -1,0 +1,67 @@
+
+Some FAQs about ham radio and this program
+
+
+            Q: What's all this about?
+
+            This is a new Hack Club you-ship-we-ship program. You can opt in to
+            study as a community with our nightly.
+
+            Q: I already have my license! Can I still get a radio?
+
+         No, sorry, you cannot get a radio unless you level up.
+
+            Q: What if I can't make it every night?
+
+            Don't worry! You can still study on your own to make up.
+                Make sure you are done studying and testing by May 31st to be
+                eligible for the grant.
+
+            Q: How do I take the test?
+
+            To find your testing center, follow our upcoming guide! Hang tight
+            for now.
+
+            Q: How do I study for the test?
+
+            To study for your test, click on the “study links” link in the
+            navigation bar. This will be updated shortly!
+
+            Q: How often do I have to renew it?
+
+            Your ham radio license is valid for 10 years, and you can renew it
+            for only $35 without taking the test again.
+
+            Q: What does ham have to do with this?
+
+            No, ham radios aren't made of ham - "ham" is a historical refrence,
+            started as an insult by telegraph operators!
+
+            Because this is amateur radio - of course
+            you can hack your radio and program custom firmware!
+            This will be required. Don't worry, we will offer guides to do
+            this.
+
+            Yes, colleges love this stuff! Ham radio is a great way to
+            distinguish yourself from other students while having fun.
+
+            If you want to go even further with your license, many counties and
+            colleges offer local ham clubs - a great way to connect with your
+            community!
+
+            Ham radio is not just about having fun - it's also about doing
+            service. Ham radio has been used in countless situations - like
+            hurricanes - to save people's lives, coordinate local events
+            like parades and marathons, and to aid in emergency communication.
+
+            No, you cannot choose your callsign for free. If you wish to choose
+            your license, you must pay $50 to get a custom callsign. This is not
+            covered by this grant.
+
+            Currently,
+            this program is only available to students in the US. We have
+            plans to expand in the future. If you would like to be an ambassador
+            for your country, please email ham@hackclub.com.
+
+            When you pass the test, you are going to get the highly-hackable
+            UV-K5 radio.
