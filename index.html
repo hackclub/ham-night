@@ -28,57 +28,65 @@
     style="position:absolute; top:70%; left:80%; width:200px; height:300px; background-color:rgba(68, 0, 255, 0.1); border-radius:50%; filter:blur(70px); z-index:0">
   </div>
 
+  <!-- Hack Club logo -->
+  <div class="w-full">
+    <a class="banner block mx-auto ml-2" href="https://hackclub.com/">
+      <img src="https://contribute.hackclub.com/images/flag-orpheus-top.png" alt="Hack Club Logo"
+        class="w-full max-w-xs mx-auto">
+    </a>
+  </div>
+
   <!-- Ham Club logo section -->
   <div class="relative h-screen flex items-center justify-center">
     <img src="./public/hamclub.svg" alt="Ham Club Logo" class="w-64 sm:w-96" />
   </div>
 
-  <!-- Content section with beige background and no side padding -->
-  <div class="relative z-10 w-full bg-beige py-10">
-    <div class="mx-auto max-w-lg lg:max-w-xl"> <!-- Centered content within the section -->
-      <a class="banner block mx-auto mb-4" href="https://hackclub.com/">
-        <img src="https://contribute.hackclub.com/images/flag-orpheus-top.png"
-          alt="Dinosaur arm holding flag that reads 'Hack Club'" class="w-full">
-      </a>
+  <!-- Content section with beige background -->
+  <div class="relative z-10 w-full bg-beige py-10 px-4 sm:px-8">
+    <div class="mx-auto max-w-lg lg:max-w-xl space-y-6">
 
-      <div class="text-center">
-        <h2 class="font-bold text-xl sm:text-2xl">📻 <i>See into the invisible world</i> ✨</h2>
+<h1 class="font-bold text-2xl sm:text-xl text-center">📻 <i><b>See into the invisible world</b></i> ✨</h1>
+
+      <!-- Box 1: Concept about radio communication -->
+      <div class="border-2 border-white rounded-lg p-6 bg-red-600 text-white text-left">
+        <h2 class="text-lg font-semibold">Radio Communication</h2>
+        <p>Learn about radio communication and earn your technician license, the first step in your ham radio journey.
+        </p>
       </div>
 
-      <div class="prose sm:text-base text-sm text-justify my-4">
-        <p>
-          Calling all tech enthusiasts, makers, and radioheads! Get ready to dive into the world of ham radio!
-          You'll learn all about radio communication, connect with a cool community, and earn your technician
-          license—the first step in your ham radio journey.
-        </p>
-        <br>
-        <p>
-          We run a program that meets every night from <strong>8-9 PM Eastern Time</strong> to study together.
-          Don't worry if you can't make it to every session—you can always study alone at your own pace.
-          As long as you've passed the test by May 31st, you'll qualify for our grant, which covers the cost
-          of your technician license.
-        </p>
-        <br>
-        <div class="sm:flex sm:justify-between sm:items-center sm:my-4">
-          <img src="./public/micha.jpg" alt="Study Group"
-            class="w-32 h-32 sm:w-48 sm:h-48 rounded-lg mx-auto sm:mx-0 sm:mr-6 mb-4 sm:mb-0 object-cover" />
-          <p>
-            Plus, when you pass your exam, we'll send you a UV-K5 radio—perfect for diving into the world
-            of ham radio and even doing some fun hacking!
-          </p>
+      <!-- Box 2: Concept about study sessions -->
+      <div class="border-2 border-white rounded-lg p-6 bg-orange-600 text-white flex items-center">
+        <img src="./public/micha.jpg" alt="Study Group" class="w-32 h-auto sm:w-48 rounded-lg mr-6" />
+        <div>
+          <h2 class="text-lg font-semibold">Study Sessions</h2>
+          <p>Join our program for nightly study sessions from 8-9 PM Eastern Time. If you can't make it, you can study
+            at your own pace.</p>
         </div>
-        <br>
-        <p>
-          Ham radio is more than just a hobby—it's a way to make real connections, help during emergencies,
-          and get involved with local events like parades and marathons. Plus, it looks fantastic on college
-          applications!
-        </p>
       </div>
 
-      <p class="italic text-center">Join the fun in #hamradio to study with us!</p>
-      <p class="text-center pb-10">Have questions? Visit our FAQ.</p>
+      <!-- Box 3: Concept about technician license grant -->
+      <div class="border-2 border-white rounded-lg p-6 bg-yellow-400 text-white text-left">
+        <h2 class="text-lg font-semibold">Technician License Grant</h2>
+        <p>If you pass the test by May 31st, you'll qualify for our grant, which covers the cost of your technician
+          license.</p>
+      </div>
+
+      <!-- Box 4: Concept about UV-K5 Radio -->
+      <div class="border-2 border-white rounded-lg p-6 bg-green-500 text-white text-right">
+        <h2 class="text-lg font-semibold">UV-K5 Radio</h2>
+        <p>Upon passing your exam, we'll send you a UV-K5 radio for hands-on experience in the world of ham radio.</p>
+      </div>
+
+      <!-- Box 5: Concept about Ham Radio Community -->
+      <div class="border-2 border-white rounded-lg p-6 bg-blue-500 text-white text-left">
+        <h2 class="text-lg font-semibold">Ham Radio Community</h2>
+        <p>Ham radio isn't just a hobby—it helps during emergencies, in local events, and makes connections that last a
+          lifetime.</p>
+      </div>
+
     </div>
   </div>
+
 </body>
 
 </html>
