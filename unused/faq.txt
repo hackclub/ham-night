@@ -3,10 +3,9 @@ Some FAQs about ham radio and this program
 
 
             Q: What's all this about?
-
-            This is a new Hack Club you-ship-we-ship program. You can opt in to
+   This is a new Hack Club you-ship-we-ship program. You can opt in to
             study as a community with our nightly.
-
+<br>
             Q: I already have my license! Can I still get a radio?
 
          No, sorry, you cannot get a radio unless you level up.

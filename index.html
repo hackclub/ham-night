@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <title>Ham Club</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=450">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,80 +12,112 @@
   <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-gradient-to-t from-gray-900 to-gray-700">
-  <a class="banner" href="https://hackclub.com/">
-    <img src="https://contribute.hackclub.com/images/flag-orpheus-top.png"
-      alt="Dinosaur arm holding flag that reads 'Hack Club'">
-  </a>
-  <div class="pt-7">
-    <div class="w-screen text-wrap">
-      <div class="flex">
-        <img src="./public/hamclub.svg" width="500" height="500" class="pb-5 mx-auto" />
+<body class="bg-gradient-to-t from-gray-900 to-gray-500">
+
+  <!-- Background effects -->
+  <div
+    style="position:absolute; top:20%; left:80%; width:200px; height:200px; background-color:rgba(255,0,0,0.3); border-radius:50%; filter:blur(70px); z-index:0;">
+  </div>
+  <div
+    style="position:absolute; top:0%; left:0%; width:200px; height:200px; background-color:rgba(166, 255, 0, 0.3); border-radius:50%; filter:blur(70px); z-index:0;">
+  </div>
+  <div
+    style="position:absolute; top:50%; left:20%; width:300px; height:300px; background-color:rgba(0, 217, 255, 0.088); border-radius:50%; filter:blur(70px); z-index:0;">
+  </div>
+
+  <!-- Hack Club logo -->
+  <div>
+    <a class="banner mx-auto ml-2 z-50" href="https://hackclub.com/">
+      <img src="https://contribute.hackclub.com/images/flag-orpheus-top.png" alt="Hack Club Logo">
+    </a>
+  </div>
+
+  <!-- Ham Club logo with a link and wiggle effect on hover -->
+  <div class="relative flex flex-col items-center justify-center text-white z-10 pt-10">
+    <a href="/index.html"> <!-- Replace with correct link -->
+      <img src="./public/hamclub.svg" alt="Ham Club Logo" class="w-64 sm:w-96" />
+    </a>
+    <p class="w-full text-center font-bold text-xl my-3">
+      📻 <i>See into the invisible world</i>
+      ✨
+    </p>
+  </div>
+
+  <!-- sylized button -->
+  <div class="flex justify-center">
+    <a href="https://forms.hackclub.com/t/4xrbpF32B8us"
+      class="bg-white text-black font-bold py-2 px-4 rounded-full mt-5">Get your radio! 📻</a>
+  </div>
+  <br>
+
+
+  <p class="text-center text-white text-2xl font-sans tracking-wide px-4 " style="opacity: 50;">.... .- -.-.
+    -.- / -.-. .-.. ..- -... / .-..
+    ---
+    ...- . ... / .... .- -- / .-. .- -.. .. --- -.-.--</p>
+  <br>
+
+  <div class="gridContainer" style="margin-left: auto; margin-right: auto; max-width: 52em;">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 px-5 pb-5 justify-center">
+      <!-- Box 1: Radio Communication -->
+      <div
+        class="rounded-lg border-2 border-white p-6 text-white text-center flex flex-col justify-evenly items-center max-w-md"
+        style="background: linear-gradient(45deg, rgb(72, 79, 92), rgb(126, 102, 107));">
+        <h2 class="text-xl sm:text-3xl font-bold">Radio Communication</h2>
+        <p class="italic text-base sm:text-lg">Learn about radio communication and earn your technician license, the
+          first step in your ham radio
+          journey.</p>
       </div>
-    </div>
-    <div class="px-20">
-      <div class="prose flex mx-auto flex-col">
-        <h2 class="w-full text-center font-bold text-2xl my-3">
-          📻 <i>See into the invisible world</i> ✨
-        </h2>
 
-        <br>
-        <div class="flex">
-          <p>
-            Calling all tech enthusiasts, makers, and radioheads! Get ready ready to dive into the world of ham radio!
-            You'll learn all about radio communication, connect with a cool community, and earn your technician
-            license—the first step in your ham radio journey.
-            <br>
-            <br>
-            We run a program that meets every night from
-            <span class="font-semibold">8-9 PM Eastern Time</span> to
-            study together. Don't worry if you can't make it to
-            every session—you can always study alone at your own pace. As
-            long as you've passed the test by May 31st, you'll
-            qualify for our grant, which covers the cost of your
-            technician license. No alarms, and no surprises!
-          </p>
+      <!-- Box 2: Study Sessions (changes layout for smaller screens) -->
+      <div
+        class="rounded-lg border-2 border-white p-6 text-white text-center flex flex-col justify-evenly items-center max-w-md"
+        style="background: linear-gradient(to right, rgb(120, 120, 120), rgb(135, 160, 160));">
+        <h2 class="text-xl sm:text-3xl font-bold">Study Sessions</h2>
+        <p class="italic text-base sm:text-lg">Join our program for nightly study sessions from 8-9 PM Eastern Time.
+          If you can't make it, you can study
+          at your own pace.</p>
+      </div>
 
-          <img src="./public/micha.jpg" class="mx-auto rounded-lg w-[20vw] h-full ml-5 mb-5" />
-        </div>
-
-        <br>
-
-        <div class="flex">
-          <img src="./public/QUANSHENG.png" alt="Radio" class="mx-auto w-[15vw] h-full" />
-          <p>
-            Plus, when you pass your exam, we'll send you a UV-K5
-            radio—perfect for diving into the world of ham radio and even
-            doing some fun hacking!</p>
-        </div>
-
-        <br>
-        <br>
-        <p>
-          Ham radio is more than just a hobby—it's a way to make real
-          connections, help during emergencies, and get involved with local
-          events like parades and marathons. Plus, it looks fantastic on
-          college applications! So, come join our program, make some new
-          friends, and let's get you on the air.
+      <!-- Box 3: Technician License Grant -->
+      <div
+        class="rounded-lg border-2 border-white p-6 text-white text-center flex flex-col justify-evenly items-center max-w-md"
+        style="background: linear-gradient(45deg, rgb(72, 79, 92), rgb(126, 102, 107));">
+        <h2 class="text-xl sm:text-3xl font-bold">License Grant</h2>
+        <p class="italic text-base sm:text-lg">If you pass the test by May 31st, we will cover your exam and license
+          fees!
         </p>
       </div>
 
-      <br>
-
-      <i>
-        <p>Join the fun in #hamradio to study with!</p>
-      </i>
-
-      <p>
-        Have Questions? Visit our
-        <!-- <Link href="/faq">FAQ.</Link> -->
-      </p>
+      <!-- Box 4: UV-K5 Radio -->
+      <div
+        class="rounded-lg border-2 border-white p-6 text-white text-center flex flex-col justify-evenly items-center max-w-md"
+        style="background: linear-gradient(to right, rgb(120, 120, 120), rgb(135, 160, 160));">
+        <h2 class="text-xl sm:text-3xl font-bold">UV-K5 Radio</h2>
+        <p class="italic text-base sm:text-lg">Upon passing your exam, we'll send you a UV-K5 radio for hands-on
+          experience in the world of ham radio.</p>
+      </div>
+      <!-- Box 5: Ham Radio Community -->
+      <div
+        class="rounded-lg border-2 border-white p-6 text-white text-center flex flex-col justify-evenly items-center max-w-md"
+        style="background: linear-gradient(45deg, rgb(72, 79, 92), rgb(126, 102, 107));">
+        <h2 class="text-xl sm:text-3xl font-bold">Ham Radio Community</h2>
+        <p class="italic text-base sm:text-lg">Ham radio isn't just a hobby—it helps during emergencies, in local
+          events, and makes connections that last a
+          lifetime.</p>
+      </div>
+      <!-- Box 6: Resources -->
+      <div
+        class="rounded-lg border-2 border-white p-6 text-white text-center flex flex-col justify-evenly items-center max-w-md"
+        style="background: linear-gradient(to right, rgb(120, 120, 120), rgb(135, 160, 160));">
+        <h2 class="text-xl sm:text-3xl font-bold">Helpful Resources</h2>
+        <p class="italic text-base sm:text-lg">Want to jump right in? Check out our <a href="/help"
+            class="underline">list of ham
+            radio resources and FAQs!</a>
+        </p>
+      </div>
     </div>
   </div>
-  </div>
 </body>
-
-<!-- @MSW can you set this up for us?  -->
-<!-- <script defer data-domain="ham.hackclub.com" src="https://plausible.io/js/script.js"></script> */ -->
 
 </html>

@@ -1,5 +1,4 @@
 body {
-  color: white;
   margin: 0;
   font-family: "Mate", serif;
   font-weight: 400;
@@ -7,12 +6,28 @@ body {
   font-variation-settings: "slnt" 0;
   min-width: 100vw;
   min-height: 100vh;
+  color: #ffffff;
 }
 
 .banner {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(-3deg);
+  }
+
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+.wiggle-on-hover:hover {
+  animation: wiggle 0.6s ease-in-out infinite;
 }
 
 .banner img {
@@ -35,7 +50,25 @@ body {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(-5deg);
   }
+}
+
+.red-circle {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 200px;
+  /* Adjust size as needed */
+  height: 200px;
+  /* Adjust size as needed */
+  background-color: rgba(255, 0, 0, 0.3);
+  /* Red color with opacity */
+  border-radius: 50%;
+  filter: blur(50px);
+  /* Adjust blur effect */
+  z-index: 0;
+  /* Make sure it's behind other elements */
 }
