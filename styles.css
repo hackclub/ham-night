@@ -1,5 +1,4 @@
 body {
-  color: rgb(0, 0, 0);
   margin: 0;
   font-family: "Mate", serif;
   font-weight: 400;
@@ -7,6 +6,7 @@ body {
   font-variation-settings: "slnt" 0;
   min-width: 100vw;
   min-height: 100vh;
+  color: #ffffff;
 }
 
 .banner {
@@ -16,7 +16,6 @@ body {
 }
 
 @keyframes wiggle {
-
   0%,
   100% {
     transform: rotate(-3deg);
