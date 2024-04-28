@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <title>Ham Club</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=450">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,89 +12,73 @@
   <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-gradient-to-t from-gray-900 to-gray-500">
+<body class="bg-gradient-to-t from-gray-900 to-gray-500 min-h-screen overflow-x-hidden">
 
-  <div style="position:absolute; top:20%; left:80%; width:200px; height:200px; background-color:rgba(255,0,0,0.3); border-radius:50%; filter:blur(70px); z-index:0"></div>
+  <!-- Background effects -->
+  <div
+    style="position:absolute; top:20%; left:80%; width:200px; height:200px; background-color:rgba(255,0,0,0.3); border-radius:50%; filter:blur(70px); z-index:0">
+  </div>
+  <div
+    style="position:absolute; top:0%; left:0%; width:200px; height:200px; background-color:rgba(166, 255, 0, 0.3); border-radius:50%; filter:blur(70px); z-index:0">
+  </div>
+  <div
+    style="position:absolute; top:50%; left:20%; width:300px; height:300px; background-color:rgba(0, 217, 255, 0.088); border-radius:50%; filter:blur(70px); z-index:0">
+  </div>
+  <div
+    style="position:absolute; top:70%; left:80%; width:200px; height:300px; background-color:rgba(68, 0, 255, 0.1); border-radius:50%; filter:blur(70px); z-index:0">
+  </div>
 
-  <div style="position:absolute; top:0%; left:0%; width:200px; height:200px; background-color:rgba(166, 255, 0, 0.3); border-radius:50%; filter:blur(70px); z-index:0"></div>
+  <!-- Main content -->
+  <div class="relative z-10 px-4 max-w-md mx-auto sm:max-w-lg lg:max-w-xl">
+    <a class="banner block mx-auto mb-4" href="https://hackclub.com/">
+      <img src="https://contribute.hackclub.com/images/flag-orpheus-top.png"
+        alt="Dinosaur arm holding flag that reads 'Hack Club'" class="w-full">
+    </a>
 
-  <div style="position:absolute; top:50%; left:20%; width:300px; height:300px; background-color:rgba(0, 217, 255, 0.088); border-radius:50%; filter:blur(70px); z-index:0"></div>
+    <div class="text-center">
+      <img src="./public/hamclub.svg" alt="Ham Club Logo" class="mx-auto w-32 h-32 sm:w-48 sm:h-48 mb-6" />
 
-  <div style="position:absolute; top:70%; left:80%; width:200px; height:300px; background-color:rgba(68, 0, 255, 0.1); border-radius:50%; filter:blur(70px); z-index:0"></div>
-
-  <a class="banner" href="https://hackclub.com/">
-    <img src="https://contribute.hackclub.com/images/flag-orpheus-top.png"
-      alt="Dinosaur arm holding flag that reads 'Hack Club'">
-  </a>
-  <div class="pt-7">
-    <div class="w-screen text-wrap">
-      <div class="flex">
-        <img src="./public/hamclub.svg" width="500" height="500" class="pb-5 mx-auto" />
-      </div>
+      <h2 class="font-bold text-xl sm:text-2xl">📻 <i>See into the invisible world</i> ✨</h2>
     </div>
-    <div class="px-20">
-      <div class="prose flex mx-auto flex-col">
-        <h2 class="w-full text-center font-bold text-2xl my-3">
-          📻 <i>See into the invisible world</i> ✨
-        </h2>
 
-        <br>
-        <div class="flex">
-          <p>
-            Calling all tech enthusiasts, makers, and radioheads! Get ready ready to dive into the world of ham radio!
-            You'll learn all about radio communication, connect with a cool community, and earn your technician
-            license—the first step in your ham radio journey.
-            <br>
-            <br>
-            We run a program that meets every night from
-            <span class="font-semibold">8-9 PM Eastern Time</span> to
-            study together. Don't worry if you can't make it to
-            every session—you can always study alone at your own pace. As
-            long as you've passed the test by May 31st, you'll
-            qualify for our grant, which covers the cost of your
-            technician license. No alarms, and no surprises!
-          </p>
-
-          <img src="./public/micha.jpg" class="mx-auto rounded-lg w-[20vw] h-full ml-5 mb-5" />
-        </div>
-
-        <br>
-
-        <div class="flex">
-          <img src="./public/QUANSHENG.png" alt="Radio" class="mx-auto w-[15vw] h-full" />
-          <p>
-            Plus, when you pass your exam, we'll send you a UV-K5
-            radio—perfect for diving into the world of ham radio and even
-            doing some fun hacking!</p>
-        </div>
-
-        <br>
-        <br>
+    <div class="prose sm:text-base text-sm text-justify my-4">
+      <p>
+        Calling all tech enthusiasts, makers, and radioheads! Get ready to dive into the world of ham radio!
+        You'll learn all about radio communication, connect with a cool community, and earn your technician
+        license—the first step in your ham radio journey.
+      </p>
+      <br>
+      <p>
+        We run a program that meets every night from <strong>8-9 PM Eastern Time</strong> to study together.
+        Don't worry if you can't make it to every session—you can always study alone at your own pace.
+        As long as you've passed the test by May 31st, you'll qualify for our grant, which covers the cost
+        of your technician license. No alarms, and no surprises!
+      </p>
+      <br>
+      <div class="sm:flex sm:justify-between sm:items-center sm:my-4">
+        <img src="./public/micha.jpg" alt="Study Group"
+          class="w-32 h-32 sm:w-48 sm:h-48 rounded-lg mx-auto sm:mx-0 sm:mr-6 mb-4 sm:mb-0 object-cover" />
         <p>
-          Ham radio is more than just a hobby—it's a way to make real
-          connections, help during emergencies, and get involved with local
-          events like parades and marathons. Plus, it looks fantastic on
-          college applications! So, come join our program, make some new
-          friends, and let's get you on the air.
+          Plus, when you pass your exam, we'll send you a UV-K5 radio—perfect for diving into the world
+          of ham radio and even doing some fun hacking!
         </p>
       </div>
-
       <br>
-
-      <i>
-        <p>Join the fun in #hamradio to study with!</p>
-      </i>
-
       <p>
-        Have Questions? Visit our
-        <!-- <Link href="/faq">FAQ.</Link> -->
+        Ham radio is more than just a hobby—it's a way to make real connections, help during emergencies,
+        and get involved with local events like parades and marathons. Plus, it looks fantastic on
+        college applications! So, come join our program, make some new friends, and let's get you on the air.
       </p>
     </div>
-  </div>
+
+    <p class="italic text-center">
+      Join the fun in #hamradio to study with us!
+    </p>
+
+    <p class="text-center pb-10">
+      Have questions? Visit our FAQ.
+    </p>
   </div>
 </body>
-
-<!-- @MSW can you set this up for us?  -->
-<!-- <script defer data-domain="ham.hackclub.com" src="https://plausible.io/js/script.js"></script> */ -->
 
 </html>
