@@ -9,14 +9,26 @@ body {
   min-height: 100vh;
 }
 
-.bg-beige {
-  background-color: #f5f5dc;
-  /* Beige */
-}
 .banner {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+@keyframes wiggle {
+
+  0%,
+  100% {
+    transform: rotate(-3deg);
+  }
+
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+.wiggle-on-hover:hover {
+  animation: wiggle 0.6s ease-in-out infinite;
 }
 
 .banner img {
